@@ -1,0 +1,8 @@
+source ./key
+
+export CIFS_SHARE=<your CIFS share>
+export CIFS_MOUNTPOINT=<your mountpoint>
+export CIFS_CREDENTIALS=<your CIFS credential file>
+
+export EXCLUDES_FILE=<your exclude pattern file>
+export REPO="$CIFS_MOUNTPOINT/<your repo path>"
