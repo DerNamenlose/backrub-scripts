@@ -10,7 +10,7 @@ source ./config
 
 TIMESTAMP=$(date +"%Y-%m-%dT%H-%M-%S")
 
-./backrub create --exclude-from "$EXCLUDES_FILE" -e "$CIFS_MOUNTPOINT" --name "namenlos-$TIMESTAMP" --sources /root /etc /home --repository "$REPO"
+./backrub create --exclude-from "$EXCLUDES_FILE" -e "$CIFS_MOUNTPOINT" --name "$MACHINE-$TIMESTAMP" --sources /root /etc /home --repository "$REPO"
 
 # unmount the backup space
 umount "$CIFS_MOUNTPOINT"
