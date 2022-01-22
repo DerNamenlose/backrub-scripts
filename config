@@ -4,5 +4,7 @@ export CIFS_SHARE=<your CIFS share>
 export CIFS_MOUNTPOINT=<your mountpoint>
 export CIFS_CREDENTIALS=<your CIFS credential file>
 
+export MACHINE=<your machine name here>
+
 export EXCLUDES_FILE=<your exclude pattern file>
 export REPO="$CIFS_MOUNTPOINT/<your repo path>"
